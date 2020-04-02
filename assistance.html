@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Assistance</title>
+<link rel="stylesheet" type="text/css" href= "Rahul.css">
+</head>
+<body>
+<h1>Please fill in the given checkbox</h1>
+<h5>The data provided will help us provide better services and improve the functioning of the website </h5>
+<br>
+<form action = "fashion.html">
+<input type ="radio"> complicated site navigation<br>
+<input type ="radio"> Limited product info<br>
+<input type ="radio"> Poor customer support<br>
+<input type ="radio"> Disappointing page load time<br>
+<input type ="radio"> Unattractive website layout<br>
+<input type ="radio"> none of the above<br>
+<br>
+<button type = "submit" value ="submit" onclick = "getElementById('demo').innerHTML=message()">submit</button>
+    <p id="demo"></p>
+<script>
+function message() {
+  alert("You have completed the form! Thanks for your help in making our service better");
+}
+document.getElementById("demo").innerHTML = message;
+</script>
+</form>
+<h5> Thank you for your cooperation and sorry for any inconvenience caused</h5>
+</body>
+</html>
